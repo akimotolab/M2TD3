@@ -1,0 +1,12 @@
+env_name: "InvertedPendulum-v2"
+dim: 1
+change_param_names: [
+            "polemass"
+        ]
+change_param_min: [
+            1.0
+        ]
+change_param_max: [
+            31.0
+        ]
+xml_file: "inverted_pendulum.xml"

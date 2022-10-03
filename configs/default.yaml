@@ -1,0 +1,24 @@
+defaults:
+  - _self_
+  - algorithm: ???
+  - environment: HalfCheetahv2-1_4
+  - evaluation: eval
+experiment_name: test
+xml_name: test
+network:
+  hatomega_num: 5
+  policy_hidden_num: 1
+  policy_hidden_size: 256
+  critic_hidden_num: 1
+  critic_hidden_size: 256
+  hatomega_hidden_num: 0
+  hatomega_hidden_size: 256
+  p_bias: 0
+  hatomega_bias: 0
+
+system:
+  device: cuda:0
+  seed: 0
+hydra:
+  run:
+    dir: experiments/${experiment_name}

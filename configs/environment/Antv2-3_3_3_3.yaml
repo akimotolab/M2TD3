@@ -1,0 +1,12 @@
+env_name: "Ant-v2"
+dim: 3
+change_param_names: [
+            "torsomass", "frontleftlegmass", "frontrightlegmass"
+        ]
+change_param_min: [
+            0.1, 0.01, 0.01
+        ]
+change_param_max: [
+            3.0, 3.0, 3.0
+        ]
+xml_file: "ant.xml"
